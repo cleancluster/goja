@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dop251/goja/ast"
-	"github.com/dop251/goja/file"
-	"github.com/dop251/goja/unistring"
+	"github.com/cleancluster/goja/ast"
+	"github.com/cleancluster/goja/file"
+	"github.com/cleancluster/goja/unistring"
 )
 
 func firstErr(err error) error {

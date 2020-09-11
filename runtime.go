@@ -16,9 +16,9 @@ import (
 
 	"golang.org/x/text/collate"
 
-	js_ast "github.com/dop251/goja/ast"
-	"github.com/dop251/goja/parser"
-	"github.com/dop251/goja/unistring"
+	js_ast "github.com/cleancluster/goja/ast"
+	"github.com/cleancluster/goja/parser"
+	"github.com/cleancluster/goja/unistring"
 )
 
 const (

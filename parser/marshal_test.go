@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dop251/goja/ast"
+	"github.com/cleancluster/goja/ast"
 )
 
 func marshal(name string, children ...interface{}) interface{} {

@@ -2,14 +2,15 @@ package parser
 
 import (
 	"encoding/base64"
-	"github.com/dop251/goja/ast"
-	"github.com/dop251/goja/file"
-	"github.com/dop251/goja/token"
-	"github.com/go-sourcemap/sourcemap"
 	"io/ioutil"
 	"net/url"
 	"os"
 	"strings"
+
+	"github.com/cleancluster/goja/ast"
+	"github.com/cleancluster/goja/file"
+	"github.com/cleancluster/goja/token"
+	"github.com/go-sourcemap/sourcemap"
 )
 
 func (self *_parser) parseBlockStatement() *ast.BlockStatement {

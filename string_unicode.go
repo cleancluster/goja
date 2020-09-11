@@ -11,8 +11,8 @@ import (
 	"unicode/utf16"
 	"unicode/utf8"
 
-	"github.com/dop251/goja/parser"
-	"github.com/dop251/goja/unistring"
+	"github.com/cleancluster/goja/parser"
+	"github.com/cleancluster/goja/unistring"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 )

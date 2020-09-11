@@ -2,13 +2,14 @@ package goja
 
 import (
 	"fmt"
-	"github.com/dlclark/regexp2"
-	"github.com/dop251/goja/unistring"
 	"io"
 	"regexp"
 	"sort"
 	"strings"
 	"unicode/utf16"
+
+	"github.com/cleancluster/goja/unistring"
+	"github.com/dlclark/regexp2"
 )
 
 type regexp2Wrapper regexp2.Regexp
