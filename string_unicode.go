@@ -3,7 +3,6 @@ package goja
 import (
 	"errors"
 	"fmt"
-	"hash/maphash"
 	"io"
 	"math"
 	"reflect"
@@ -11,6 +10,7 @@ import (
 	"unicode/utf16"
 	"unicode/utf8"
 
+	"github.com/cleancluster/goja/compat/maphash"
 	"github.com/cleancluster/goja/parser"
 	"github.com/cleancluster/goja/unistring"
 	"golang.org/x/text/cases"

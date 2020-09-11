@@ -1,8 +1,9 @@
 package goja
 
 import (
-	"hash/maphash"
 	"testing"
+
+	"github.com/cleancluster/goja/compat/maphash"
 )
 
 func TestMapEvilIterator(t *testing.T) {

@@ -1,10 +1,11 @@
 package goja
 
 import (
-	"hash/maphash"
 	"math"
 	"strconv"
 	"testing"
+
+	"github.com/cleancluster/goja/compat/maphash"
 )
 
 func testMapHashVal(v1, v2 Value, expected bool, t *testing.T) {

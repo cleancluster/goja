@@ -1,12 +1,12 @@
 package goja
 
 import (
-	"hash/maphash"
 	"math"
 	"reflect"
 	"strconv"
 	"unsafe"
 
+	"github.com/cleancluster/goja/compat/maphash"
 	"github.com/cleancluster/goja/ftoa"
 	"github.com/cleancluster/goja/unistring"
 )

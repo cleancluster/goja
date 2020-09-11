@@ -1,7 +1,7 @@
 package goja
 
 import (
-	"hash/maphash"
+	"github.com/cleancluster/goja/compat/maphash"
 )
 
 type mapEntry struct {
